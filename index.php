@@ -109,7 +109,7 @@ $grouped_array = App::getGroupedArray();
                 </div>
                 <!-- Women's clothing Section Content-->
                 <div class="text-black row d-flex justify-content-center">
-                    <?php App::renderProductCards($grouped_array['women clothing']); ?>
+                    <?php App::renderProductCards($grouped_array['women\'s clothing']); ?>
                 </div>
             </div>
         </section>
@@ -126,7 +126,7 @@ $grouped_array = App::getGroupedArray();
                 </div>
                 <!-- Men's clothing Section Content-->
                 <div class="text-black row d-flex justify-content-center">
-                    <?php App::renderProductCards($grouped_array['men clothing']); ?>
+                    <?php App::renderProductCards($grouped_array['men\'s clothing']); ?>
                 </div>
             </div>
         </section>

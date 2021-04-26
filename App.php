@@ -1,7 +1,7 @@
 <?php
 class App
 {
-  static $endpoint = 'http://webacademy.se/fakestore/';
+  public static $endpoint = 'https://fakestoreapi.com/products';
 
   public static function getGroupedArray()
   {
@@ -13,7 +13,7 @@ class App
     }
   }
 
-  static function groupArray($array) {
+  private static function groupArray($array) {
     $grouped_array = array();
     foreach ($array as $item) {
       $category = $item['category'];
@@ -23,12 +23,11 @@ class App
     return $grouped_array;
   }
 
-  static function getData()
+  private static function getData()
   {
     $json = @file_get_contents(self::$endpoint);
     if (!$json) {
       throw new Exception('Could not access ' . self::$endpoint);
-      
     }
     return json_decode($json, true);
   }
