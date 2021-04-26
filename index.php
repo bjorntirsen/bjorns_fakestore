@@ -63,7 +63,7 @@ $grouped_array = App::getGroupedArray();
                 <!-- Selection Grid Items-->
                 <div class="row justify-content-center">
                     <!-- Item 1-->
-                    <a href="#womensclothing" class="col-md-6 col-lg-4 mb-5">
+                    <a href="#womensclothing" class="col-md-6 col-lg-4 mb-5 js-scroll-trigger">
                         <div class="portfolio-item mx-auto">
                             <h3 class="text-center text-uppercase text-secondary">Women's clothing</h3>
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -73,7 +73,7 @@ $grouped_array = App::getGroupedArray();
                         </div>
                     </a>
                     <!-- Item 2-->
-                    <a href="#mensclothing" class="col-md-6 col-lg-4 mb-5">
+                    <a href="#mensclothing" class="col-md-6 col-lg-4 mb-5 js-scroll-trigger">
                         <div class="portfolio-item mx-auto">
                             <h3 class="text-center text-uppercase text-secondary">Men's clothing</h3>
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -83,7 +83,7 @@ $grouped_array = App::getGroupedArray();
                         </div>
                     </a>
                     <!-- Item 3-->
-                    <a href="#jewelery" class="col-md-6 col-lg-4 mb-5">
+                    <a href="#jewelery" class="col-md-6 col-lg-4 mb-5 js-scroll-trigger">
                         <div class="portfolio-item mx-auto">
                             <h3 class="text-center text-uppercase text-secondary">Jewelery</h3>
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -92,7 +92,6 @@ $grouped_array = App::getGroupedArray();
                             <img class="limit-img img-fluid" src="https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg" alt="Gold & Silver Dragon" />
                         </div>
                     </a>
-                    
                 </div>
             </div>
         </section>
